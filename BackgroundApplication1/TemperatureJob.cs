@@ -3,7 +3,7 @@ using CronLib;
 
 namespace BackgroundApplication1
 {
-    public class TemperatureJob<TheSensor, TheWriter> : CronJob
+    internal class TemperatureJob<TheSensor, TheWriter> : CronJob
         where TheSensor : ISensor, new()
         where TheWriter : ITemperatureWriter, new()
     {

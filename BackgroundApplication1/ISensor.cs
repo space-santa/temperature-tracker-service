@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackgroundApplication1
 {
-    public interface ISensor
+    internal interface ISensor
     {
         double Temperature { get; }
     }

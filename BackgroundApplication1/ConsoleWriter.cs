@@ -7,12 +7,11 @@ using Logger;
 
 namespace BackgroundApplication1
 {
-    class ConsoleWriter : ITemperatureWriter
+    internal class ConsoleWriter : ITemperatureWriter
     {
         public async Task Write(string value)
         {
             Log.Instance.Write(value);
-            System.Diagnostics.Debug.WriteLine(value);
         }
     }
 }

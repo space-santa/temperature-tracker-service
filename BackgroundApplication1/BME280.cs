@@ -6,7 +6,7 @@ using Windows.Devices.I2c;
 
 namespace BackgroundApplication1
 {
-    public class BME280_CalibrationData
+    internal class BME280_CalibrationData
     {
         //BME280 Registers
         public UInt16 dig_T1 { get; set; }
@@ -32,7 +32,7 @@ namespace BackgroundApplication1
 
     }
 
-    public class BME280Sensor
+    internal class BME280Sensor
     {
         //The BME280 register addresses according the the datasheet: http://www.adafruit.com/datasheets/BST-BME280-DS001-11.pdf
         const byte BME280_Address = 0x77;

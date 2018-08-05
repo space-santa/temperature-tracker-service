@@ -129,11 +129,11 @@
     <comment>http://whiterun:4567</comment>
   </data>
   <data name="Logger" xml:space="preserve">
-    <value>File</value>
+    <value>Console</value>
     <comment>File, Console</comment>
   </data>
   <data name="Writer" xml:space="preserve">
-    <value>Post</value>
+    <value>Console</value>
     <comment>Post; Console</comment>
   </data>
 </root>

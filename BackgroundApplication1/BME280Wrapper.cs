@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackgroundApplication1
 {
-    class BME280Wrapper : ISensor
+    internal class BME280Wrapper : ISensor
     {
         private static BME280Sensor BME280 = null;
 

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BackgroundApplication1
 {
-    public interface ITemperatureWriter
+    internal interface ITemperatureWriter
     {
-        Task Write(string value);
+        Task Write(string what);
     }
 }

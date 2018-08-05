@@ -7,7 +7,7 @@ using Windows.UI;
 
 namespace BackgroundApplication1
 {
-    class TemperatureColourMap
+    internal class TemperatureColourMap
     {
         public static Color colourForTemperature(double temperature)
         {

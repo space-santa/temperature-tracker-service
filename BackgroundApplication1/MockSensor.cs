@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackgroundApplication1
 {
-    class MockSensor : ISensor
+    internal class MockSensor : ISensor
     {
         public double Temperature
         {

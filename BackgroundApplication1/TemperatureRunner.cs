@@ -8,7 +8,7 @@ using Logger;
 
 namespace BackgroundApplication1
 {
-    public static class TemperatureRunner
+    internal static class TemperatureRunner
     {
         public static void Run()
         {

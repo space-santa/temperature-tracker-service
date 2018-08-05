@@ -12,14 +12,14 @@ using Emmellsoft.IoT.Rpi.SenseHat.Fonts.SingleColor;
 
 namespace BackgroundApplication1
 {
-    public class NoSensorDataException : Exception
+    internal class NoSensorDataException : Exception
     {
         public NoSensorDataException() : base() { }
         public NoSensorDataException(string message) : base(message) { }
         public NoSensorDataException(string message, Exception inner) : base(message, inner) { }
     }
 
-    class SenseHatWrapper : ISensor
+    internal class SenseHatWrapper : ISensor
     {
         private readonly ISenseHat SenseHat;
         private readonly ManualResetEventSlim _waitEvent = new ManualResetEventSlim(false);

@@ -9,7 +9,7 @@ using Logger;
 
 namespace BackgroundApplication1
 {
-    class PostWriter : ITemperatureWriter
+    internal class PostWriter : ITemperatureWriter
     {
         private static readonly HttpClient client = new HttpClient();
 

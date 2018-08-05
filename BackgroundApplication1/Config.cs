@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackgroundApplication1
 {
-    public sealed class Config
+    internal sealed class Config
     {
         private static readonly Config instance = new Config();
 
