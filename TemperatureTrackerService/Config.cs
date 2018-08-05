@@ -24,10 +24,11 @@ namespace TemperatureTrackerService
 
         private Config()
         {
+            //Device = "BME280"; // SenseHat, Mock, BME280
             Device = "SenseHat"; // SenseHat, Mock, BME280
             Writer = "Post"; // Post, Console
             EndPoint = "http://whiterun:4567/api/temperature";
-            CronJob = "0 * * * * ?";
+            CronJob = "0 */15 * * * ?";
             Logger = "File"; // Console, File
         }
 
