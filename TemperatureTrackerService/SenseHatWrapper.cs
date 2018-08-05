@@ -10,7 +10,7 @@ using Windows.UI;
 using Emmellsoft.IoT.Rpi.SenseHat;
 using Emmellsoft.IoT.Rpi.SenseHat.Fonts.SingleColor;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     internal class NoSensorDataException : Exception
     {

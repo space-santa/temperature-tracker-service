@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Windows.Devices.Enumeration;
 using Windows.Devices.I2c;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     internal class BME280_CalibrationData
     {

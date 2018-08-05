@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     internal interface ITemperatureWriter
     {

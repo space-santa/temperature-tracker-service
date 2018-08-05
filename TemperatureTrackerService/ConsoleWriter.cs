@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Logger;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     internal class ConsoleWriter : ITemperatureWriter
     {

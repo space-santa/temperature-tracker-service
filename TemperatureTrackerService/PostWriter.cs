@@ -7,7 +7,7 @@ using System.Net.Http;
 using Windows.Data.Json;
 using Logger;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     internal class PostWriter : ITemperatureWriter
     {

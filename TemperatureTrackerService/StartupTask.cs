@@ -5,7 +5,7 @@ using Windows.ApplicationModel.Background;
 using System.Threading.Tasks;
 using CronLib;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     public sealed class StartupTask : IBackgroundTask
     {

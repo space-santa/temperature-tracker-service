@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using CronLib;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     internal class TemperatureJob<TheSensor, TheWriter> : CronJob
         where TheSensor : ISensor, new()

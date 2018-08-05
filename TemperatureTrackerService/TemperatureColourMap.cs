@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     internal class TemperatureColourMap
     {

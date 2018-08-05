@@ -6,7 +6,7 @@ using System.Text;
 using CronLib;
 using Logger;
 
-namespace BackgroundApplication1
+namespace TemperatureTrackerService
 {
     internal static class TemperatureRunner
     {
