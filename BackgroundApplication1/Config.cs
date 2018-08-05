@@ -24,12 +24,11 @@ namespace BackgroundApplication1
 
         private Config()
         {
-            var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
-            Device = resourceLoader.GetString("Device");
-            Writer = resourceLoader.GetString("Writer");
-            EndPoint = resourceLoader.GetString("EndPoint");
-            CronJob = resourceLoader.GetString("CronJob");
-            Logger = resourceLoader.GetString("Logger");
+            Device = "SenseHat"; // SenseHat, Mock, BME280
+            Writer = "Post"; // Post, Console
+            EndPoint = "http://whiterun:4567/api/temperature";
+            CronJob = "0 * * * * ?";
+            Logger = "File"; // Console, File
         }
 
         public static Config Instance

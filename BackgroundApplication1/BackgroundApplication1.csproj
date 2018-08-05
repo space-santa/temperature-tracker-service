@@ -115,7 +115,6 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="BackgroundApplication1_TemporaryKey.pfx" />
-    <PRIResource Include="Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE.txt" />
