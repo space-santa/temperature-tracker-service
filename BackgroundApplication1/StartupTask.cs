@@ -13,7 +13,7 @@ namespace BackgroundApplication1
         {
             BackgroundTaskDeferral deferral = taskInstance.GetDeferral();
 
-            Logger.Log.Instance.UseConsole = true;
+            Logger.Log.Instance.UseConsole = Config.Instance.Logger == "Console";
             TemperatureRunner.Run();
 
             deferral.Complete();
