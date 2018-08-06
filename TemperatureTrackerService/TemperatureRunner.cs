@@ -31,6 +31,7 @@ namespace TemperatureTrackerService
             {
                 case "SenseHat":
                     CronRunner<TemperatureJob<SenseHatWrapper, TheWriter>>.Run(Config.Instance.CronJob).GetAwaiter().GetResult();
+                    SenseHatWrapper CreateInstanceToClearDisplay;
                     break;
                 case "BME280":
                     CronRunner<TemperatureJob<BME280Wrapper, TheWriter>>.Run(Config.Instance.CronJob).GetAwaiter().GetResult();
