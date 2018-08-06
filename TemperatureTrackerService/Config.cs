@@ -15,6 +15,7 @@ namespace TemperatureTrackerService
         public string EndPoint { get; }
         public string CronJob { get; }
         public string Logger { get; }
+        public bool DisplayTemperature { get; }
 
         // Explicit static constructor to tell C# compiler
         // not to mark type as beforefieldinit
@@ -30,6 +31,7 @@ namespace TemperatureTrackerService
             EndPoint = "http://whiterun:4567/api/temperature";
             CronJob = "0 */15 * * * ?";
             Logger = "File"; // Console, File
+            DisplayTemperature = false; // Makes only sense for the SenseHat. (Pun not intended. Really.)
         }
 
         public static Config Instance

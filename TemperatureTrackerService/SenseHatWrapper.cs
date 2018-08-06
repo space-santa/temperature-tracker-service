@@ -58,7 +58,10 @@ namespace TemperatureTrackerService
                     if (t.HasValue)
                     {
                         var temperature = Math.Round((double)t, 1);
-                        Task.Run(() => WriteTemperatureAsync(temperature));
+                        if (Config.Instance.DisplayTemperature)
+                        {
+                            Task.Run(() => WriteTemperatureAsync(temperature));
+                        }
                         return temperature;
                     }
                     else
